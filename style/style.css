@@ -94,23 +94,33 @@ header, footer{
 main{
 
     display: flex;
-    width: auto;
-    height: 500px;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
 }
 
 .picBanner{
 
    display: flex; 
    width: 100%;
-   height: auto;
+   height: 500px;
    background-color: #56A3A6;
    background-image: url(/img/banner1.jpg);
    background-size: cover;
    background-repeat: no-repeat;
   background-position: start;
+  image-orientation: absolute;
 }
 
+.bestGuitars div h1{
 
+    background-color: #56A3A6;
+    text-align: center;
+    padding: 50px;
+    font-size: larger;
+
+       
+}
 
 
 
