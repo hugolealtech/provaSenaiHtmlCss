@@ -7,14 +7,14 @@
 
 :root{
 
-    --cor1:#131515;
+    --cor1:#191c1c;
     --cor2:#ECA400;
     --cor3:#A69CAC;
     --cor4:#E94F37;
     --cor5:#56A3A6;
     --cor6:wheat;
 }
-header{
+header, footer{
 
     width: 100%;
     height: 100px;
@@ -23,216 +23,37 @@ header{
 
 }
 
-#banner{
+.footer{
 
-    display: flex;
-    align-items: center;
-    justify-content:space-between; 
     width: 100%;
-    height: auto; 
-    
-}
-
-#banner a{
-    width: 200%;
+    color: var(--cor6);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-}
-
-#imgBanner{
-
-   display: flex;
-   align-items: center;
-   color: var(--cor6);
-   gap: 10px;
-}
-
-#imgBanner img{
-
-    width: 10%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:auto;
-    gap: 10px;
-    padding: 20px; 
     justify-content: start;
-    
-
-}
-
-#loginCadastro{
-
-    
-    display: flex;
-    justify-content: end;
-    gap: 15px;
-    color: var(--cor6);
-}
-#loginCadastro img{
-
-    width: 10%;
-    height: auto;
-   
-}
-
-#loginCadastro a{
-
-    text-decoration: none;
-    color: wheat;
-    padding: 10px;
-}
-
-/* IMAGEM PRINCIPAL */
-
-
-main {
-    display: flex;
-    width: 100%;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative; /* Necessário para o pseudo-elemento funcionar */
-    z-index: 1; /* Certifica-se de que o conteúdo do main esteja acima do background */
-}
-
-main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(/img/guitarwhite.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.3; /* Defina a opacidade desejada */
-    z-index: -1; /* Coloca o background atrás do conteúdo */
-}
-
-/* main{
-
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(/img/guitarwhite.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-} */
-
-#produto{
-
-    width: 70%;  
-    display: flex;
-    justify-content: center;    
-    color: #131515;
-    font-family: 10%;
-    text-align: justify;
-    padding: 100px;
-     
-}
-
-#produto h1{
-     
-    text-align: center;
-    margin: 0px 0 10%;
-}
-
-#produtoImg{
-
-    width: 30%;   
-    padding: 20px;
-    
-}
-
-#produtoImg img{
-
-    width: 100%; 
-    height: 10hv; 
-    border-radius: 20px;
-    justify-content: end;
-   
-}
-
-#produtoNome{
-
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-     
-}
-
-#produtoNome img{
-
-    width: 20%;
-    margin-bottom: 60%;
-}
-
-#produtoPrice{
-
-    display: flex;
-    justify-content: space-between;
-    font-size: large;
-    margin: 10%;
-}
-
-#produtoPrice button{
-
-    background-color: var(--cor1);
     color: var(--cor6);
+    gap: 10px;
     padding: 10px;
-    border-radius: 15px;
+
 }
 
-/* RECOMENDADOS PARA  VOCÊ */
+#contato{
 
-.recomendados{
+ font-size: 10px;
+  width: 100%;
+  height: auto;
+  font-size: 5px;
+  
+}
+#direitosReservados{
 
     width: 50%;
-    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    gap: 10px;
-    padding: 10px;
-}
-
-.itens img{
-
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    padding: 5px;
-}
-
-.itens{
-
-    flex: 1 1 200px;
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-
-}
-
-main div h1{
-
-    margin-top: -20%;
-    font-size: 30px;
+    color: var(--cor6);
     
-}
 
+}
 
 
 
