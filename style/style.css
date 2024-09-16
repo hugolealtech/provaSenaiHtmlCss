@@ -11,7 +11,7 @@
     --cor3:#A69CAC;
     --cor4:#E94F37;
     --cor5:#56A3A6;
-    --cor6:white;
+    --cor6:wheat;
 }
 header{
 
@@ -28,7 +28,8 @@ header{
     align-items: center;
     justify-content:space-between; 
     width: 100%;
-    height: auto;  
+    height: auto; 
+    
 }
 
 #imgBanner{
@@ -36,6 +37,7 @@ header{
    display: flex;
    align-items: center;
    color: var(--cor6);
+   gap: 10px;
 }
 
 #imgBanner img{
@@ -46,7 +48,8 @@ header{
     justify-content: center;
     align-items: center;
     height:auto;
- 
+    gap: 10px;
+    padding: 20px; 
     justify-content: start;
     
 
@@ -54,11 +57,11 @@ header{
 
 #loginCadastro{
 
- 
+    
     display: flex;
     justify-content: end;
     gap: 15px;
-    color: w;
+    color: var(--cor6);
 }
 #loginCadastro img{
 
@@ -71,10 +74,92 @@ header{
 
     text-decoration: none;
     color: wheat;
+    padding: 10px;
 }
 
 
 body{
 
 
+    
 }
+#produto{
+
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    
+    color: #131515;
+    font-family: 10%;
+   
+}
+
+#produto h2{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#produtoImg{
+
+    width: 30%;   
+    padding: 20px;
+    
+}
+
+#produtoImg img{
+
+    width: 100%;  
+    border-radius: 20px;
+   
+}
+
+#produtoNome{
+
+    width: 30%;
+    height: 300px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 50px;
+    
+}
+#produtoNome img{
+
+    width: 20%;
+    gap: -20px;
+}
+
+
+#produtoPrice{
+
+    display: flex;
+    align-content: space-around;
+  
+}
+
+#produtoPrice hr{
+
+    color: #131515;
+}
+#produtoPrice{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+
+#produtoPrice button{
+
+    background-color: var(--cor1);
+    color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
