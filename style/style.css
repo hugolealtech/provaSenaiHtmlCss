@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 :root{
@@ -78,32 +79,31 @@ header{
 }
 
 
-body{
+main{
 
-
-    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 #produto{
 
-    width: 100%;
-  
+    width: 70%;  
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     color: #131515;
     font-family: 10%;
-   
+    text-align: justify;
+    padding: 100px;
+     
 }
 
-#produto h2{
-
-  font-size: 30px;
-
-}
-
-#produto p{
-
-    font-size: 20px;
+#produto h1{
+     
+    text-align: center;
+    margin: 0px 0 10%;
 }
 
 #produtoImg{
@@ -115,45 +115,35 @@ body{
 
 #produtoImg img{
 
-    width: 80%;  
+    width: 100%; 
+    height: 10hv; 
     border-radius: 20px;
+    justify-content: end;
    
 }
 
 #produtoNome{
 
-    width: 30%;
-    height: 300px;
+    width: 40%;
+    height: auto;
     display: flex;
-    
     flex-direction: column;
-    gap: 50px;
-    
+    justify-content: space-around;
+     
 }
+
 #produtoNome img{
 
     width: 20%;
-    gap: -20px;
+    margin-bottom: 60%;
 }
-
 
 #produtoPrice{
 
     display: flex;
-    align-content: space-around;
-  
-}
-
-#produtoPrice hr{
-
-    color: #131515;
-}
-#produtoPrice{
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+    font-size: large;
+    margin: 10%;
 }
 
 #produtoPrice button{
@@ -161,10 +151,7 @@ body{
     background-color: var(--cor1);
     color: var(--cor6);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-
-
-
 
 
