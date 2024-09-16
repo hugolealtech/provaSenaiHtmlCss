@@ -97,8 +97,13 @@ body{
 
 #produto h2{
 
-    display: flex;
-    flex-direction: column;
+  font-size: 30px;
+
+}
+
+#produto p{
+
+    font-size: 20px;
 }
 
 #produtoImg{
@@ -110,7 +115,7 @@ body{
 
 #produtoImg img{
 
-    width: 100%;  
+    width: 80%;  
     border-radius: 20px;
    
 }
