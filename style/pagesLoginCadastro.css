@@ -116,7 +116,7 @@ main::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/img/guitarwhite.jpg);
+    background-image: url(/img/guitarManBanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,13 +127,14 @@ main::before {
 
 #produto{
 
-    width: 70%;  
+    width: 80%;  
     display: flex;
     justify-content: center;    
     color: #131515;
     font-family: 10%;
     text-align: justify;
     padding: 100px;
+    gap: 20px;
      
 }
 
@@ -156,6 +157,7 @@ main::before {
     height: 10hv; 
     border-radius: 20px;
     justify-content: end;
+    box-shadow: 5px 5px 50px ;
    
 }
 
@@ -167,6 +169,7 @@ main::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
      
 }
 
@@ -178,6 +181,13 @@ main::before {
     justify-content: flex-start;
     margin-top: 50px;
     
+}
+
+#produtoNome input{
+
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 
