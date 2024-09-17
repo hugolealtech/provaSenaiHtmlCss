@@ -17,17 +17,17 @@
 header, footer{
 
     width: 100%;
-    height: 100px;
-    background-color: var(--cor1);
-  
+    height: auto;
+    background-color: var(--cor1);  
     display: flex;
 
 }
 
 header{
-    
+
     position: sticky;
     top:0;
+    z-index: 9999;
 }
 
 #banner{
@@ -304,12 +304,6 @@ main{
 }
 
 
-
-
-
-
-
-
 .footer{
 
     width: 100%;
@@ -321,6 +315,19 @@ main{
     gap: 10px;
     padding: 10px;
     margin: 50px;
+
+}
+
+
+footer section .footer{
+
+    width: 100%;  
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: small;
 
 }
 
@@ -343,17 +350,6 @@ main{
 
 }
 
-.footer{
-
-    width: 100%;
-  
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-
-}
 
 #contato{
 
