@@ -95,8 +95,8 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative; /* Necessário para o pseudo-elemento funcionar */
-    z-index: 1; /* Certifica-se de que o conteúdo do main esteja acima do background */
+    position: relative; 
+    z-index: 1; 
 }
 
 main::before {
