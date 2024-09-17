@@ -1,0 +1,280 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+:root{
+
+    --cor1:#191c1c;
+    --cor2:#ECA400;
+    --cor3:#A69CAC;
+    --cor4:#E94F37;
+    --cor5:#56A3A6;
+    --cor6:wheat;
+}
+header, footer{
+
+    width: 100%;
+    height: auto;
+    background-color: var(--cor1);  
+    display: flex;
+
+}
+
+header{
+
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+
+#banner{
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    width: 100%;
+    height: auto; 
+    
+}
+
+#banner a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+#imgBanner{
+
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   color: var(--cor6);
+   gap: 10px;
+}
+
+#imgBanner img{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    gap: 10px;
+    padding: 20px; 
+    justify-content: start;
+    margin-left: 30px;
+    
+}
+
+#loginCadastro{
+
+    
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    color: var(--cor6);
+}
+#loginCadastro img{
+
+    width: 10%;
+    height: auto;
+   
+}
+
+#loginCadastro a{
+
+    text-decoration: none;  
+    padding: 10px;
+}
+
+
+/* IMAGEM PRINCIPAL */
+
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; 
+    z-index: 1; 
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/img/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2; /* Defina a opacidade desejada */
+    z-index: -1; /* Coloca o background atrás do conteúdo */
+}
+
+
+#produto{
+
+    width: 80%;  
+    display: flex;
+    justify-content: center;    
+    color: #131515;
+    font-family: 10%;
+    text-align: justify;
+    padding: 100px;
+    gap: 20px;
+     
+}
+
+#produto h1{
+     
+    text-align: center;
+    margin: 0px 0 10%;
+}
+
+#produtoImg{
+
+    width: 30%;   
+    padding: 20px;
+    
+}
+
+#produtoImg img{
+
+    width: 100%; 
+    height: 10hv; 
+    border-radius: 20px;
+    justify-content: end;
+    box-shadow: 5px 5px 50px ;
+   
+}
+
+#produtoNome{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+     
+}
+
+#produtoNome > div{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    
+}
+
+#produtoNome input{
+
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+#produtoNome img{
+
+    width: 20%;
+    margin-bottom: 60%;
+}
+
+
+#produtoNome button{
+
+    background-color: var(--cor1);
+    color: var(--cor6);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px auto;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+
+.footer{
+
+    width: 100%;
+    color: var(--cor6);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--cor6);
+    gap: 10px;
+    padding: 10px;
+    margin: 50px;
+
+}
+
+
+footer section .footer{
+
+    width: 100%;  
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: small;
+
+}
+
+#contato{
+
+ font-size: 10px;
+  width: 100%;
+  height: auto;
+  font-size: 5px;
+  
+}
+#direitosReservados{
+
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: var(--cor6);
+    
+
+}
+
+
+#contato{
+
+ font-size: 10px;
+  width: 100%;
+  height: auto;
+  font-size: 5px;
+  
+}
+#direitosReservados{
+
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+   
+    
+
+}
